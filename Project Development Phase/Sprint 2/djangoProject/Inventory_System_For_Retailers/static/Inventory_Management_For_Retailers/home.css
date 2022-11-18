@@ -1,0 +1,90 @@
+body{
+  background: #4d4d4d;
+  color: white;
+}
+#navbarSupportedContent{
+  padding: 2px;
+  /*font-size: ;*/
+}
+.navbar-brand{
+  margin-left: 10px;
+}
+.maincontent{
+  text-align: center;
+}
+.AddRemove{
+  display: inline-block;
+  text-align: center;
+  margin-top: 25px;
+  padding: 20px;
+}
+.addStock{
+  background-color: rgba(0, 255, 0, 0.747);
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+.addStock:hover{
+  background-color: rgb(0, 163, 0);
+}
+.removeStock{
+  margin-top: 20px;
+  background-color: rgb(255, 85, 85);
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+.removeStock:hover{
+  background-color: rgb(255, 61, 61);
+}
+.addStock a,.removeStock a,.viewStock a{
+  text-decoration: none;
+  padding: 5px;
+}
+.addStockTitle,.removeStockTitle,.viewStockTitle{
+  font-size: large;
+  color:white;
+}
+.my-form{
+  padding: 20px;
+  text-align: center;
+  border: 2px solid wheat;
+}
+.my-form input{
+  margin-right: auto;
+  margin-left: auto;
+  width: 400px;
+}
+.padform{
+  padding:10px;
+}
+.Title{
+  padding: 10px;
+  font-size: larger;
+  font-weight: bolder;
+  font-stretch: expanded;
+}
+.view{
+  padding: 2%;
+  /* margin-left: 2%;
+  margin-right: 2%; */
+}
+.viewStock{
+  background-color: rgba(0, 204, 255, 0.747);
+  margin-top: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+}
+.viewStock:hover{
+  background-color: rgba(6, 205, 255, 0.616);
+}
+.form-group1{
+  /*font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;*/
+  display: flex;
+  justify-content: center;
+}
+.form-group1 .btn btn-primary{
+  margin-left: auto;
+  text-align: center;
+}
