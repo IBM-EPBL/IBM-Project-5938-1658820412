@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="296feaa3-a1f3-497f-8251-fb758716acd9" name="Django default Mapping">
+      <data-sources db="f5c66c03-022c-4137-b7f6-ebfca1a870b6" />
+      <scope>
+        <node kind="database" negative="1">
+          <node kind="schema" negative="1" />
+        </node>
+      </scope>
+    </mapping>
+  </component>
+</project>

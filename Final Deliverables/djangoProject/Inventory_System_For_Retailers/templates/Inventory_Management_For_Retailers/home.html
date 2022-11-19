@@ -6,7 +6,7 @@
     {% load static %}
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 	 crossorigin="anonymous">
-    <link href="{% static 'Inventory_System_For_Retailers/footer.css' %}">
+    <link href="{% static 'Inventory_System_For_Retailers/footer.css' %}" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
   </script>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,7 +23,7 @@
 </head>
 <body>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="padding: 15px">
-		<a class="navbar-brand" href="#">GST System</a>
+		<a class="navbar-brand" href="#">Inventory System</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
@@ -81,19 +81,43 @@
         {%if stock_data%}
           {{stock_data}}
         {% endif %}
-      {% endif %}
-      <br>
-        <div class="Last_Stock">
+          <div class="Last_Stock">
           {% if Last_Stock %}
             <br>
               Last Added Stock - {{Last_Stock.Product_Name}}. Quantity - {{Last_Stock.No_of_stocks}}
-          {% else %}
-            <br> Your Warehouse is EMPTY!
             {% endif %}
+
         </div>
+      {% else %}
+          <div class="container" style="padding: 20px">
+              <div class="row">
+                  <div class="col-5">
+                      <div class="card" style="width: 18rem;">
+                      <img src="https://www.howtogeek.com/wp-content/uploads/2022/08/github_hero_2.jpg" class="card-img-top" alt="View_Stock">
+                        <div class="card-body">
+                            <h5 class="card-title">Git Hub Link</h5>
+                            <p class="card-text">Click Here to View the Github Repository.</p>
+                            <a href="https://github.com/IBM-EPBL/IBM-Project-5938-1658820412" class="btn btn-primary">Git Hub</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-5">
+                      <div class="card" style="width: 18rem;">
+                      <img src="https://play-lh.googleusercontent.com/t-juVwXA8lDAk8uQ2L6d6K83jpgQoqmK1icB_l9yvhIAQ2QT_1XbRwg5IpY08906qEw" class="card-img-top" alt="View_Stock">
+                        <div class="card-body">
+                            <h5 class="card-title">Demo Video Link</h5>
+                            <p class="card-text">Click Here to View the Demo Video Link</p>
+                            <a href="https://drive.google.com/file/d/1los54hihyassqpxodFGDFJHEZ4wHTnL6/view?usp=share_link" class="btn btn-primary">Drive Link</a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      {% endif %}
+      <br>
     </div>
-    <footer style="padding: 20px; margin-bottom: 0; position: relative;  text-align: center; height: 50%; width: 50%">
+    <footer>
         A Django based Nalaiya Thiran Project 2022.
-    </footer>
+             </footer>
 </body>
 </html>
