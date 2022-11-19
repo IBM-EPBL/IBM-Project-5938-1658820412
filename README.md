@@ -29,9 +29,12 @@ Team ID : **PNT2022TMID19193**
 
 ---------
 
-[DEMO VIDEO LINK](https://drive.google.com/file/d/1los54hihyassqpxodFGDFJHEZ4wHTnL6/view?usp=share_link)
+<a href="https://drive.google.com/file/d/1los54hihyassqpxodFGDFJHEZ4wHTnL6/view?usp=share_link" target="_blank">DEMO VIDEO LINK</a>
 
 ---------
 
-[PROJECT DEPLOYMENT](https://inventory-management-system-vm.herokuapp.com/)
+<a href="https://inventory-management-system-vm.herokuapp.com/" target="_blank">PROJECT DEPLOYMENT</a>
+
+
+--------
 
