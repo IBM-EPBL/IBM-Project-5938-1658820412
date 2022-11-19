@@ -50,7 +50,7 @@
     {%if user.is_authenticated%}
             {{stock_data}}<br>
             <div class="my-form-container">
-              <form method="POST" action="login" class="my-form">
+              <form method="POST" action="addstock" class="my-form">
                 {% csrf_token %}
                 <div class="mb-3">
                     <label for="product_name" class="form-label">Product Name</label>
